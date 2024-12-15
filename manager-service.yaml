@@ -8,6 +8,7 @@ organization-service:
     eureka:
       enabled: false
     NIWSServerListClassName: emented.configuration.ConsulServerList
+    listOfServers: emented.configuration.ConsulServerList
     ServerListRefreshInterval: 1000
 
 ribbon:
