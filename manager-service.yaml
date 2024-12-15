@@ -1,0 +1,15 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/
+
+organization-service:
+  ribbon:
+    eureka:
+      enabled: false
+    NIWSServerListClassName: emented.configuration.ConsulServerList
+    ServerListRefreshInterval: 1000
+
+ribbon:
+  client:
+    name: organization-service
